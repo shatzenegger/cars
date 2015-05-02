@@ -22,5 +22,8 @@ namespace com.shatzenegger.cars.lib
          * Weight - double
          * Seats - array
          */
+
+        public int Id { get; set; }
+        public Model Model { get; set; }
     }
 }
